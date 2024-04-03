@@ -6,11 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EnquiryController {
 
-	@GetMapping("/getEnquires")
-	public String getEnquiry()
+//	@GetMapping("/getEnquires")
+//	public String getEnquiry()
+//	{
+//	  return "No Enquiry Found ..!";
+//		
+//	}
+	@GetMapping("/getlogin")
+	public String login()
 	{
-	  return "No Enquiry Found ..!";
-		
+		return "no enquiry found";
 	}
 	
 }
